@@ -259,6 +259,279 @@ const projects = [
     ],
     createAt: '01-10-2022',
   },
+  {
+    id: 7,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 8,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 9,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 10,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 11,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 12,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 13,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 14,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 15,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 16,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 17,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 18,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
+  {
+    id: 19,
+    name: 'Project Name',
+    description: 'Project Description',
+    image: 'https://picsum.photos/200/300',
+    github: 'https://github.com/eMartin94/project-gallery',
+    demo: 'https://project-gallery-em.vercel.app/',
+    tags: [
+      {
+        name: 'nextjs',
+        icon: IconBrandNextjs,
+        color: 'text-black',
+      },
+      {
+        name: 'tailwindcss',
+        icon: IconBrandTailwind,
+        color: 'text-sky-400',
+      },
+    ],
+    createAt: '01-10-2022',
+  },
 ];
 
 const socialDev = [

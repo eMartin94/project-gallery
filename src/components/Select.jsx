@@ -48,7 +48,7 @@ const Select = ({ categories, onCategoryChange }) => {
           className={`absolute mt-2 w-56 backdrop-blur-sm border rounded-md shadow-lg z-10 ${
             isDarkMode
               ? 'bg-gray-900/90 border-gray-900'
-              : 'bg-white/70 border-gray-300 '
+              : 'bg-white/70 border-gray-300'
           } animate-opacity-out`}
         >
           {categories.map((category) => (
@@ -57,7 +57,7 @@ const Select = ({ categories, onCategoryChange }) => {
               onClick={() => handleCategorySelect(category.name)}
               className={`px-4 py-2 cursor-pointer  ${
                 selectedCategory === category.name
-                  ? `text-white ${
+                  ? ` ${
                       isDarkMode
                         ? 'bg-gray-900 text-white'
                         : 'bg-gray-100 text-gray-950'
