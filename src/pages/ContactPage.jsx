@@ -40,7 +40,7 @@ const ContactPage = () => {
 
   return (
     <section
-      className={`w-[calc(100%-56px)] sm:w-[calc(100%-256px)] min-h-screen ml-14 sm:ml-64 px-8 py-4 flex flex-col gap-4 ${
+      className={`w-[calc(100%-56px)] xs:w-[calc(100%-256px)] min-h-screen ml-14 xs:ml-64 px-8 py-4 flex flex-col gap-4 ${
         isDarkMode ? 'bg-gray-800' : 'bg-white'
       } transition-all duration-300 ease-linear relative`}
     >

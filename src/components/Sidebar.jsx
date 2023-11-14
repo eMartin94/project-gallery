@@ -15,7 +15,7 @@ const Sidebar = () => {
 
   return (
     <div
-      className={`w-14 sm:w-64 min-h-screen px-2 sm:px-4 py-4 flex flex-col justify-between fixed z-50 ${
+      className={`w-14 xs:w-64 min-h-screen px-2 sm:px-4 py-4 flex flex-col justify-between fixed z-50 ${
         isDarkMode ? 'bg-gray-900' : 'bg-gray-100'
       }  transition-all duration-300 ease-linear`}
     >
@@ -27,13 +27,13 @@ const Sidebar = () => {
         />
         <div>
           <h2
-            className={`hidden sm:block font-bold tracking-wider ${
+            className={`hidden xs:block font-bold tracking-wider ${
               isDarkMode ? 'text-white' : 'text-black'
             }`}
           >
             Martin Pizango
           </h2>
-          <p className='hidden sm:block text-gray-500'>
+          <p className='hidden xs:block text-gray-500'>
             eduardo.martin688@gmail.com
           </p>
         </div>
@@ -55,9 +55,9 @@ const Sidebar = () => {
             onClick={() => handleLink(link.id)}
           >
             <link.icon className='' />
-            <span className='hidden sm:block capitalize'>{link.name}</span>
+            <span className='hidden xs:block capitalize'>{link.name}</span>
             <span
-              className={`group-hover:visible invisible sm:hidden capitalize absolute left-14 after:w-4 after:h-4 after:absolute after:-left-2 after:top-1 after:rotate-45 transition-all duration-300 ease-linear ${
+              className={`group-hover:visible invisible xs:hidden capitalize absolute left-14 after:w-4 after:h-4 after:absolute after:-left-2 after:top-1 after:rotate-45 transition-all duration-300 ease-linear ${
                 isDarkMode
                   ? 'bg-gray-900 px-4 rounded-r-lg after:bg-gray-900'
                   : 'bg-gray-100 px-4 rounded-r-lg after:bg-gray-100'
@@ -68,7 +68,7 @@ const Sidebar = () => {
           </Link>
         ))}
       </div>
-      <div className='w-full flex flex-col sm:flex-row gap-2 justify-evenly items-center'>
+      <div className='w-full flex flex-col xs:flex-row gap-2 justify-evenly items-center'>
         {socialDev.map((social) => (
           <a
             key={social.id}
@@ -84,7 +84,7 @@ const Sidebar = () => {
           </a>
         ))}
       </div>
-      <div className='w-full flex sm:flex-row pb-12 justify-center sm:justify-start items-center'>
+      <div className='w-full flex xs:flex-row pb-12 justify-center sm:justify-start items-center'>
         <DarkModeToggle />
       </div>
     </div>

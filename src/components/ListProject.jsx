@@ -1,4 +1,8 @@
-import { IconBrandGithub, IconWorld } from '@tabler/icons-react';
+import {
+  IconBrandCodepen,
+  IconBrandGithub,
+  IconWorld,
+} from '@tabler/icons-react';
 import { isNewProject } from '../utils/date';
 import { useEffect, useState } from 'react';
 import SkeletonLoader from './SkeletonLoader';
@@ -6,13 +10,13 @@ import SkeletonLoader from './SkeletonLoader';
 const ListProject = ({ projects }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [projectsToShow, setProjectsToShow] = useState(
-    projects.slice(0, currentPage * 8)
+    projects.slice(0, currentPage * 6)
   );
   const [loading, setLoading] = useState(false);
   const [reachedEnd, setReachedEnd] = useState(false);
 
   useEffect(() => {
-    setProjectsToShow(projects.slice(0, currentPage * 8));
+    setProjectsToShow(projects.slice(0, currentPage * 6));
   }, [projects, currentPage]);
 
   useEffect(() => {
@@ -25,8 +29,8 @@ const ListProject = ({ projects }) => {
           setLoading(true);
           setTimeout(() => {
             const nextPageProjects = projects.slice(
-              currentPage * 8,
-              (currentPage + 1) * 8
+              currentPage * 6,
+              (currentPage + 1) * 6
             );
             if (nextPageProjects.length === 0) {
               setReachedEnd(true);
@@ -43,7 +47,7 @@ const ListProject = ({ projects }) => {
 
   return (
     <>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 lg:gap-8'>
+      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-4 lg:gap-8'>
         {projectsToShow.map((project) => (
           <div
             key={project.id}
@@ -65,27 +69,38 @@ const ListProject = ({ projects }) => {
                     <li key={index} className='rounded px-1'>
                       {/* {`#${tag.name}`} */}
                       <tag.icon
-                        className={`${tag.color} text-[14px] inline-block w-5 h-5`}
+                        className={`${tag.color} text-[14px] inline-block w-6 h-6`}
                       />
                     </li>
                   ))}
                 </ul>
-                <p className='hidden group-hover:flex text-white text-sm'>
+                <p className='hidden group-hover:flex text-white text-sm w-full h-full min-h-[100px] truncate'>
                   {project.description}
                 </p>
               </div>
               <div className='hidden group-hover:flex w-full justify-end gap-4'>
                 <div className='flex gap-2'>
                   <a
-                    href={project.github}
+                    href={
+                      project.github.length > 0
+                        ? project.github
+                        : project.codepen
+                    }
                     target='_blank'
                     rel='noreferrer'
-                    className='cursor-pointer w-full h-full '
+                    className='cursor-pointer w-full h-full mr-2'
                   >
-                    <IconBrandGithub
-                      className='text-white hover:animate-bounce'
-                      size={30}
-                    />
+                    {project.github.length > 0 ? (
+                      <IconBrandGithub
+                        className='text-white translate-y-0 hover:-translate-y-2 transition-all duration-300 ease-linear'
+                        size={30}
+                      />
+                    ) : (
+                      <IconBrandCodepen
+                        className='text-white translate-y-0 hover:-translate-y-2 transition-all duration-300 ease-linear'
+                        size={30}
+                      />
+                    )}
                   </a>
                   <a
                     href={project.demo}
@@ -94,7 +109,7 @@ const ListProject = ({ projects }) => {
                     className='cursor-pointer'
                   >
                     <IconWorld
-                      className='text-white hover:animate-bounce'
+                      className='text-white translate-y-0 hover:-translate-y-2 transition-all duration-300 ease-linear'
                       size={30}
                     />
                   </a>

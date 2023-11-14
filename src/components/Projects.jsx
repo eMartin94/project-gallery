@@ -33,12 +33,12 @@ const Projects = () => {
 
   return (
     <section
-      className={`w-[calc(100%-56px)] sm:w-[calc(100%-256px)] min-h-screen ml-14 sm:ml-64 px-8 py-4 flex flex-col gap-4 transition-all duration-300 ease-linear ${
+      className={`w-[calc(100%-56px)] xs:w-[calc(100%-256px)] min-h-screen ml-14 xs:ml-64 px-8 py-4 flex flex-col gap-4 transition-all duration-300 ease-linear ${
         isDarkMode ? 'bg-gray-800' : 'bg-white'
       }`}
     >
       <h1
-        className={`text-3xl font-bold tracking-wider ${
+        className={`text-3xl font-bold tracking-wider mt-8 ${
           isDarkMode ? 'text-white' : 'text-black'
         } animate-opacity-out`}
       >

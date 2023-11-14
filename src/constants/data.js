@@ -84,16 +84,18 @@ const categories = [
 const projects = [
   {
     id: 1,
-    name: 'Project Name 1',
-    description: 'Project Description',
-    image: 'https://picsum.photos/200/300',
-    github: 'https://github.com/eMartin94/project-gallery',
-    demo: 'https://project-gallery-em.vercel.app/',
+    name: 'Before Trilogy',
+    description:
+      'The "Before" trilogy is a cinematic achievement that invites us to reflect on love, human connection, and the passage of time in a way that few other films achieve.',
+    image:
+      'https://res.cloudinary.com/dxbbbewxt/image/upload/v1698267740/before-trilogy/poster_un9yfu.webp',
+    github: 'https://github.com/eMartin94/before-trilogy-review',
+    demo: 'https://before-trilogy-review.vercel.app/',
     tags: [
       {
         name: 'html',
         icon: IconHtml,
-        color: 'text-orange-300',
+        color: 'text-orange-400',
       },
       {
         name: 'css',
@@ -145,32 +147,30 @@ const projects = [
   },
   {
     id: 2,
-    name: 'Project Name',
-    description: 'Project Description',
-    image: 'https://picsum.photos/200/300',
+    name: 'Clone Instagram',
+    description:
+      'I recreated the Instagram login form using HTML, CSS, and JavaScript. This project showcases my ability to work with essential web development technologies, delivering an attractive and functional interface.',
+    image:
+      'https://res.cloudinary.com/dxbbbewxt/image/upload/v1699930421/project-gallery/clone-instagram_oewp3q.webp',
     category: 2,
-    github: 'https://github.com/eMartin94/project-gallery',
-    demo: 'https://project-gallery-em.vercel.app/',
+    github: '',
+    codepen: 'https://codepen.io/emartin94/pen/OJrXrEz',
+    demo: 'https://codepen.io/emartin94/pen/OJrXrEz',
     tags: [
       {
-        name: 'react',
-        icon: IconBrandReact,
-        color: 'text-sky-300',
+        name: 'html',
+        icon: IconHtml,
+        color: 'text-orange-400',
+      },
+      {
+        name: 'css',
+        icon: IconBrandCss3,
+        color: 'text-blue-300',
       },
       {
         name: 'javascript',
         icon: IconBrandJavascript,
         color: 'text-yellow-300',
-      },
-      {
-        name: 'nodejs',
-        icon: IconBrandNodejs,
-        color: 'text-green-600',
-      },
-      {
-        name: 'mongodb',
-        icon: IconBrandMongodb,
-        color: 'text-green-400',
       },
     ],
     createAt: '16-09-2023',
@@ -179,7 +179,8 @@ const projects = [
     id: 3,
     name: 'Project Name',
     description: 'Project Description',
-    image: 'https://picsum.photos/200/300',
+    image:
+      'https://res.cloudinary.com/dxbbbewxt/image/upload/v1699986930/project-gallery/before-trilogy_gmigrp.webp',
     github: 'https://github.com/eMartin94/project-gallery',
     demo: 'https://project-gallery-em.vercel.app/',
     tags: [

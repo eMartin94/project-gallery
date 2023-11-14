@@ -13,6 +13,7 @@ const CarouselText = () => {
         infiniteLoop={true}
         autoPlay={true}
         interval={5000}
+        showThumbs={false}
         className={`${isDarkMode ? '' : 'light'}`}
       >
         <div className='w-full h-full py-4 '>
