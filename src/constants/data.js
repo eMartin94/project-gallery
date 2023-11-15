@@ -88,7 +88,7 @@ const projects = [
     description:
       'The "Before" trilogy is a cinematic achievement that invites us to reflect on love, human connection, and the passage of time in a way that few other films achieve.',
     image:
-      'https://res.cloudinary.com/dxbbbewxt/image/upload/v1698267740/before-trilogy/poster_un9yfu.webp',
+      'https://res.cloudinary.com/dxbbbewxt/image/upload/v1699986930/project-gallery/before-trilogy_gmigrp.webp',
     github: 'https://github.com/eMartin94/before-trilogy-review',
     demo: 'https://before-trilogy-review.vercel.app/',
     tags: [
@@ -100,7 +100,7 @@ const projects = [
       {
         name: 'css',
         icon: IconBrandCss3,
-        color: 'text-blue-300',
+        color: 'text-blue-400',
       },
       {
         name: 'javascript',
@@ -165,7 +165,7 @@ const projects = [
       {
         name: 'css',
         icon: IconBrandCss3,
-        color: 'text-blue-300',
+        color: 'text-blue-400',
       },
       {
         name: 'javascript',
@@ -190,9 +190,24 @@ const projects = [
         color: 'text-sky-300',
       },
       {
+        name: 'javascript',
+        icon: IconBrandJavascript,
+        color: 'text-yellow-300',
+      },
+      {
         name: 'tailwindcss',
         icon: IconBrandTailwind,
         color: 'text-sky-400',
+      },
+      {
+        name: 'nodejs',
+        icon: IconBrandNodejs,
+        color: 'text-green-600',
+      },
+      {
+        name: 'mongodb',
+        icon: IconBrandMongodb,
+        color: 'text-green-400',
       },
     ],
     createAt: '01-10-2022',
@@ -250,7 +265,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -271,7 +286,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -292,7 +307,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -313,7 +328,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -334,7 +349,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -355,7 +370,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -376,7 +391,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -397,7 +412,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -418,7 +433,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -439,7 +454,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -460,7 +475,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -481,7 +496,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -502,7 +517,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',
@@ -523,7 +538,7 @@ const projects = [
       {
         name: 'nextjs',
         icon: IconBrandNextjs,
-        color: 'text-black',
+        color: 'text-gray-700',
       },
       {
         name: 'tailwindcss',

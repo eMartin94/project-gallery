@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { categories, projects } from '../constants/data';
-import Select from './Select';
-import ListProject from './ListProject';
-import ListCategory from './ListCategory';
+import Select from '../components/Select';
+import ListCategory from '../components/ListCategory';
 import { useDarkMode } from '../hooks/useDarkMode';
+import ProjectCard from '../components/ProjectCard';
+import { convertDate } from '../utils/date';
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState(categories[0].name);
@@ -31,9 +32,17 @@ const Projects = () => {
     }
   };
 
+  const filteredProjects = filterProjects();
+
+  const sortedProjects = filteredProjects.sort((a, b) => {
+    const dateA = convertDate(a.createAt);
+    const dateB = convertDate(b.createAt);
+    return dateB - dateA;
+  });
+
   return (
     <section
-      className={`w-[calc(100%-56px)] xs:w-[calc(100%-256px)] min-h-screen ml-14 xs:ml-64 px-8 py-4 flex flex-col gap-4 transition-all duration-300 ease-linear ${
+      className={`w-[calc(100%-56px)] lg:w-[calc(100%-256px)] min-h-screen ml-14 lg:ml-64 px-4 py-4 flex flex-col gap-4 transition-all duration-300 ease-linear ${
         isDarkMode ? 'bg-gray-800' : 'bg-white'
       }`}
     >
@@ -50,7 +59,7 @@ const Projects = () => {
         handleCategory={handleCategory}
       />
       <Select categories={categories} onCategoryChange={handleCategory} />
-      <ListProject projects={filterProjects()} />
+      <ProjectCard projects={sortedProjects} />
     </section>
   );
 };

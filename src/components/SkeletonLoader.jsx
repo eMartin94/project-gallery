@@ -5,7 +5,7 @@ const SkeletonLoader = () => {
   return (
     <div className='grid grid-cols-1 gap-4 lg:gap-8'>
       <div
-        className={`block group max-w-full w-auto aspect-square relative overflow-hidden rounded-lg animate-zoom-in ${
+        className={`block group w-full xs:w-[300px] h-[380px] aspect-square relative overflow-hidden rounded-lg animate-zoom-in ${
           isDarkMode ? 'bg-gray-700/50' : 'bg-gray-200/50'
         }`}
       >

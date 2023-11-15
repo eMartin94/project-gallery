@@ -5,7 +5,7 @@ const PhotoSvg = () => {
 
   return (
     <div
-      className={`relative md:flex w-full max-w-lg lg:justify-end justify-center hidden mb-8 sm:mb-0 ${
+      className={`relative sm:flex w-full max-w-lg lg:justify-end justify-center hidden mb-8 sm:mb-0 ${
         isDarkMode
           ? 'drop-shadow-[10px_10px_0px_rgba(17,24,39,1)]'
           : 'drop-shadow-[10px_10px_0px_rgba(167,168,169,1)]'

@@ -65,6 +65,23 @@ export default {
         'fade-in': 'animate-fade-in 5s linear',
         'progress-bar': 'progress-bar infinite 5s linear',
       },
+      boxShadow: {
+        'strong-dark': '0px -16px 16px -12px rgba(0, 0, 0, .25)',
+        'strong-light': '0px -16px 16px -12px rgba(255, 255, 255, .25)',
+        'low-dark': '0px 0px 12px -2px rgba(0, 0, 0, .25)',
+        'low-light': '0px 0px 12px -2px rgba(255, 255, 255, .25)',
+      },
+      dropShadow: {
+        'strong-dark': '0px 0px 12px rgba(0, 0, 0, .65)',
+      },
+      screens: {
+        '2xl': '1536px',
+        xl: '1280px',
+        lg: '1024px',
+        md: '768px',
+        sm: '640px',
+        xs: '480px',
+      },
     },
   },
   plugins: [],
